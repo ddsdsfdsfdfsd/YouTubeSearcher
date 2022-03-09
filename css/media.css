@@ -1,0 +1,46 @@
+@media (max-width: 1200px){
+
+}
+
+@media (max-width: 1024px){
+    .col-3{
+        width: 33.3333%;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 90%;
+    }
+    .col-3{
+        width: 50%;
+    }
+    
+    .header__img{
+        display: none;
+    }
+
+    .header__img2{
+        display: inline;
+        height: 100px;
+        margin-right: -20px;
+    }
+}
+
+@media (max-width: 576px){
+
+}
+
+@media (max-width: 390px){
+    .col-3{
+        width: 100%;
+    }
+
+    .header__search button {
+        padding: 0px 5px;
+    }
+
+    .header__img2{
+        margin-left: -20px;
+    }
+}
